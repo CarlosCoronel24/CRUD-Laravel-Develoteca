@@ -1,0 +1,444 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+
+PS D:\Programas\xampp\htdocs\CRUD-Laravel-Develoteca> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .editorconfig
+        .env.example
+        .gitattributes
+        .gitignore
+        .styleci.yml
+        app/
+        artisan
+        bootstrap/
+        composer.json
+        composer.lock
+        config/
+        database/
+        package.json
+        phpunit.xml
+        public/
+        resources/
+        routes/
+        server.php
+        storage/
+        tests/
+        webpack.mix.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\Programas\xampp\htdocs\CRUD-Laravel-Develoteca> git status
+On branch main
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .editorconfig
+        .env.example
+        .gitattributes
+        .gitignore
+        .styleci.yml
+        app/
+        artisan
+        bootstrap/
+        composer.json
+        composer.lock
+        config/
+        database/
+        package.json
+        phpunit.xml
+        public/
+        resources/
+        routes/
+        server.php
+        storage/
+        tests/
+        webpack.mix.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\Programas\xampp\htdocs\CRUD-Laravel-Develoteca> git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .env.example.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitattributes.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .styleci.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Console/Kernel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Exceptions/Handler.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/Controller.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Controllers/EmpleadosController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Kernel.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/Authenticate.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/EncryptCookies.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/PreventRequestsDuringMaintenance.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/RedirectIfAuthenticated.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/TrimStrings.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/TrustHosts.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/TrustProxies.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Http/Middleware/VerifyCsrfToken.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Models/Empleados.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Models/User.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/AppServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/AuthServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/BroadcastServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/EventServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app/Providers/RouteServiceProvider.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in artisan.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap/app.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap/cache/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in composer.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in composer.lock.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/app.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/auth.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/broadcasting.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/cache.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/cors.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/database.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/filesystems.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/hashing.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/logging.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/mail.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/queue.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/services.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/session.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config/view.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/factories/UserFactory.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2014_10_12_000000_create_users_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2014_10_12_100000_create_password_resets_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2019_08_19_000000_create_failed_jobs_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/migrations/2021_02_18_145024_create_empleados_table.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in database/seeders/DatabaseSeeder.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in phpunit.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/.htaccess.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/index.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/robots.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/web.config.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/js/app.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/lang/en/auth.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/lang/en/pagination.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/lang/en/passwords.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/lang/en/validation.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in resources/views/welcome.blade.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/api.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/channels.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routes/console.php.
+The file will have its original line endings in your working directory
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in server.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/app/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/app/public/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/cache/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/cache/data/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/sessions/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/testing/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/framework/views/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in storage/logs/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/CreatesApplication.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/Feature/ExampleTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/TestCase.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tests/Unit/ExampleTest.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in webpack.mix.js.
+The file will have its original line endings in your working directory
+PS D:\Programas\xampp\htdocs\CRUD-Laravel-Develoteca> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .editorconfig
+        new file:   .env.example
+        new file:   .gitattributes
+        new file:   .gitignore
+        new file:   .styleci.yml
+        modified:   README.md
+        new file:   app/Console/Kernel.php
+        new file:   app/Exceptions/Handler.php
+        new file:   app/Http/Controllers/Controller.php
+        new file:   app/Http/Controllers/EmpleadosController.php
+        new file:   app/Http/Kernel.php
+        new file:   app/Http/Middleware/Authenticate.php
+        new file:   app/Http/Middleware/EncryptCookies.php
+        new file:   app/Http/Middleware/PreventRequestsDuringMaintenance.php
+        new file:   app/Http/Middleware/RedirectIfAuthenticated.php
+        new file:   app/Http/Middleware/TrimStrings.php
+        new file:   app/Http/Middleware/TrustHosts.php
+        new file:   app/Http/Middleware/TrustProxies.php
+        new file:   app/Http/Middleware/VerifyCsrfToken.php
+        new file:   app/Models/Empleados.php
+        new file:   app/Models/User.php
+        new file:   app/Providers/AppServiceProvider.php
+        new file:   app/Providers/AuthServiceProvider.php
+        new file:   app/Providers/BroadcastServiceProvider.php
+        new file:   app/Providers/EventServiceProvider.php
+        new file:   app/Providers/RouteServiceProvider.php
+        new file:   artisan
+        new file:   bootstrap/app.php
+        new file:   bootstrap/cache/.gitignore
+        new file:   composer.json
+        new file:   composer.lock
+        new file:   config/app.php
+        new file:   config/auth.php
+        new file:   config/broadcasting.php
+        new file:   config/cache.php
+        new file:   config/cors.php
+        new file:   config/database.php
+        new file:   config/filesystems.php
+        new file:   config/hashing.php
+        new file:   config/logging.php
+        new file:   config/mail.php
+        new file:   config/queue.php
+        new file:   config/services.php
+        new file:   config/session.php
+        new file:   config/view.php
+        new file:   database/.gitignore
+        new file:   database/factories/UserFactory.php
+        new file:   database/migrations/2014_10_12_000000_create_users_table.php
+        new file:   database/migrations/2014_10_12_100000_create_password_resets_table.php
+        new file:   database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+        new file:   database/migrations/2021_02_18_145024_create_empleados_table.php
+        new file:   database/seeders/DatabaseSeeder.php
+        new file:   package.json
+        new file:   phpunit.xml
+        new file:   public/.htaccess
+        new file:   public/favicon.ico
+        new file:   public/index.php
+        new file:   public/robots.txt
+        new file:   public/web.config
+        new file:   resources/js/app.js
+        new file:   resources/js/bootstrap.js
+        new file:   resources/lang/en/auth.php
+        new file:   resources/lang/en/pagination.php
+        new file:   resources/lang/en/passwords.php
+        new file:   resources/lang/en/validation.php
+        new file:   resources/views/Empleados/create.blade.php
+        new file:   resources/views/Empleados/edit.blade.php
+        new file:   resources/views/Empleados/form.blade.php
+        new file:   resources/views/Empleados/index.blade.php
+        new file:   resources/views/welcome.blade.php
+        new file:   routes/api.php
+        new file:   routes/channels.php
+        new file:   routes/console.php
+        new file:   routes/web.php
+        new file:   server.php
+        new file:   storage/app/.gitignore
+        new file:   storage/app/public/.gitignore
+        new file:   storage/framework/.gitignore
+        new file:   storage/framework/cache/.gitignore
+        new file:   storage/framework/cache/data/.gitignore
+        new file:   storage/framework/sessions/.gitignore
+        new file:   storage/framework/testing/.gitignore
+        new file:   storage/framework/views/.gitignore
+        new file:   storage/logs/.gitignore
+        new file:   tests/CreatesApplication.php
+        new file:   tests/Feature/ExampleTest.php
+        new file:   tests/TestCase.php
+        new file:   tests/Unit/ExampleTest.php
+        new file:   webpack.mix.js
+
+PS D:\Programas\xampp\htdocs\CRUD-Laravel-Develoteca> git commit -m "Agregando primer commit"
+[main 0020504] Agregando primer commit
+ 90 files changed, 10700 insertions(+), 2 deletions(-)
+ create mode 100644 .editorconfig
+ create mode 100644 .env.example
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 .styleci.yml
+ rewrite README.md (100%)
+ create mode 100644 app/Console/Kernel.php
+ create mode 100644 app/Exceptions/Handler.php
+ create mode 100644 app/Http/Controllers/Controller.php
+ create mode 100644 app/Http/Controllers/EmpleadosController.php
+ create mode 100644 app/Http/Kernel.php
+ create mode 100644 app/Http/Middleware/Authenticate.php
+ create mode 100644 app/Http/Middleware/EncryptCookies.php
+ create mode 100644 app/Http/Middleware/PreventRequestsDuringMaintenance.php
+ create mode 100644 app/Http/Middleware/RedirectIfAuthenticated.php
+ create mode 100644 app/Http/Middleware/TrimStrings.php
+ create mode 100644 app/Http/Middleware/TrustHosts.php
+ create mode 100644 app/Http/Middleware/TrustProxies.php
+ create mode 100644 app/Http/Middleware/VerifyCsrfToken.php
+ create mode 100644 app/Models/Empleados.php
+ create mode 100644 app/Models/User.php
+ create mode 100644 app/Providers/AppServiceProvider.php
+ create mode 100644 app/Providers/AuthServiceProvider.php
+ create mode 100644 app/Providers/BroadcastServiceProvider.php
+ create mode 100644 app/Providers/EventServiceProvider.php
+ create mode 100644 app/Providers/RouteServiceProvider.php
+ create mode 100644 artisan
+ create mode 100644 bootstrap/app.php
+ create mode 100644 bootstrap/cache/.gitignore
+ create mode 100644 composer.json
+ create mode 100644 composer.lock
+ create mode 100644 config/app.php
+ create mode 100644 config/auth.php
+ create mode 100644 config/broadcasting.php
+ create mode 100644 config/cache.php
+ create mode 100644 config/cors.php
+ create mode 100644 config/database.php
+ create mode 100644 config/filesystems.php
+ create mode 100644 config/hashing.php
+ create mode 100644 config/logging.php
+ create mode 100644 config/mail.php
+ create mode 100644 config/queue.php
+ create mode 100644 config/services.php
+ create mode 100644 config/session.php
+ create mode 100644 config/view.php
+ create mode 100644 database/.gitignore
+ create mode 100644 database/factories/UserFactory.php
+ create mode 100644 database/migrations/2014_10_12_000000_create_users_table.php
+ create mode 100644 database/migrations/2014_10_12_100000_create_password_resets_table.php
+ create mode 100644 database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+ create mode 100644 database/migrations/2021_02_18_145024_create_empleados_table.php
+ create mode 100644 database/seeders/DatabaseSeeder.php
+ create mode 100644 package.json
+ create mode 100644 phpunit.xml
+ create mode 100644 public/.htaccess
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.php
+ create mode 100644 public/robots.txt
+ create mode 100644 resources/css/app.css
+ create mode 100644 resources/js/app.js
+ create mode 100644 resources/js/bootstrap.js
+ create mode 100644 resources/lang/en/auth.php
+ create mode 100644 resources/lang/en/pagination.php
+ create mode 100644 resources/lang/en/validation.php
+ create mode 100644 resources/views/Empleados/create.blade.php
+ create mode 100644 resources/views/Empleados/edit.blade.php
+ create mode 100644 resources/views/Empleados/form.blade.php
+ create mode 100644 resources/views/Empleados/index.blade.php
+ create mode 100644 resources/views/welcome.blade.php
+ create mode 100644 routes/api.php
+ create mode 100644 routes/channels.php
+ create mode 100644 routes/console.php
+ create mode 100644 routes/web.php
+ create mode 100644 server.php
+ create mode 100644 storage/app/.gitignore
+ create mode 100644 storage/app/public/.gitignore
+ create mode 100644 storage/framework/.gitignore
+ create mode 100644 storage/framework/cache/.gitignore
+ create mode 100644 storage/framework/cache/data/.gitignore
+ create mode 100644 storage/framework/sessions/.gitignore
+ create mode 100644 storage/framework/testing/.gitignore
+ create mode 100644 storage/framework/views/.gitignore
+ create mode 100644 storage/logs/.gitignore
+ create mode 100644 tests/CreatesApplication.php
+ create mode 100644 tests/Feature/ExampleTest.php
+ create mode 100644 tests/TestCase.php
+ create mode 100644 tests/Unit/ExampleTest.php
+ create mode 100644 webpack.mix.js
+PS D:\Programas\xampp\htdocs\CRUD-Laravel-Develoteca> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS D:\Programas\xampp\htdocs\CRUD-Laravel-Develoteca> git push origin
+Enumerating objects: 118, done.
+Counting objects: 100% (118/118), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (97/97), done.
+Writing objects: 100% (116/116), 69.86 KiB | 2.69 MiB/s, done.
+Total 116 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/CarlosCoronel24/CRUD-Laravel-Develoteca.git
+   22b3172..0020504  main -> main
+PS D:\Programas\xampp\htdocs\CRUD-Laravel-Develoteca> 
